@@ -1,0 +1,41 @@
+
+.allTable{
+    width: 90vw;
+    background-color: #FFFFFF;
+    border-collapse: separate;
+    border: solid 0.1em #e3e1e1 ;
+    border-radius:0.8em;
+    border-bottom: none;
+}
+
+.tableRow:hover{
+    background-color:#959595 ;
+    cursor:pointer;
+}
+.tableRow:active{
+    background-color:#959595 ;
+    cursor:pointer;
+}
+.tableRow:visited{
+    background-color:#959595 ;
+    cursor:pointer;
+}
+
+.lineTable{
+    border-bottom: solid 0.1em #e3e1e1;
+    border-left-width: 0em;
+    border-right-width: 0em;
+    padding: 0.5em;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+.id{
+    font-weight: 400;
+}
+
+.rhomb{
+    color: #2DDD6A;
+}

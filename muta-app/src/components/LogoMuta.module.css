@@ -1,0 +1,121 @@
+.allContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.figuresContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+    flex-wrap: wrap;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color:#F5F5F5;
+    font-weight: bold;
+
+}
+
+.square{
+    display:flex;
+    background-color:#EBB36B;
+    height: 3em;
+    width: 3em;
+    border-radius:0.5em;
+    font-size:2em;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.1em;
+}
+
+.circle{
+    display:flex;
+    background-color:#EBB36B;
+    height: 3em;
+    width: 3em;
+    border-radius:50%;
+    font-size:2em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1em;
+}
+
+.pyrContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+    padding-top:0;
+    
+}
+.pentagonContainer{
+    width:7.5em;
+    height:0em;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    padding:0;
+}
+
+.pentagon{
+    height: 0;
+    width: 3em;
+    border-top: 3em solid #EBB36B;
+    border-left: 1.5em solid transparent;
+    border-right: 1.5em solid transparent;
+    position: relative;
+    padding-top:1em;
+    margin-top: 0.3em;
+    margin-left: 1em;
+}
+  
+.pentagon:before{
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    border-bottom: 3em solid  #EBB36B;
+    border-left: 3em solid transparent;
+    border-right: 3em solid transparent;
+    bottom: 3em;
+    left: -1.5em;
+    margin-bottom: 1em;
+} 
+
+.pentagonText{
+    font-size:2em;
+    position: absolute;
+    margin-left: 0.5em;
+    margin-top: 1.5em;
+}
+
+.rhombContainer{
+    height:5em;
+    width:5em;
+    margin-top:0em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rhomb{
+    display:flex;
+    background-color:#EBB36B;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius:0.5em;
+    font-size:2em;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+}
+
+.rhombText{
+    display: flex;
+    transform: rotate(315deg); 
+}

@@ -1,0 +1,27 @@
+[
+    { "state": "",
+      "collectionPoint": "Simon Parrila Sur",
+      "collectionId":"C6520"
+    },
+
+    { "state": "",
+      "collectionPoint": "Sodexo Sas-centro Produccion",
+      "collectionId":"C6521"
+    },
+
+    {  "state": "",
+       "collectionPoint": "Sandwich Qbano-alfaguara",
+       "collectionId":"C6522"
+    },
+
+    {  "state": "",
+        "collectionPoint": "Sr Wok Alfaguara",
+        "collectionId":"C6523"
+    },
+
+    {  "state": "",
+        "collectionPoint": "Sandwich Qbano Universidad Express Javeriana",
+        "collectionId":"C6524"
+    }
+
+]
